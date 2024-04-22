@@ -53,23 +53,7 @@ body {
     color: #ccc;
 }
 
-.button-container {
-    text-align: center;
-}
 
-.button-container input {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff0073;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.button-container input:hover {
-    background-color: #a21b75;
-}
 
 #register-form {
     display: none;
@@ -107,20 +91,5 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-around; /* Canh các nút ở giữa */
-}
-
-.button-container input {
-    width: 25%; /* Chiếm 1/4 chiều rộng của container */
-    padding: 10px 0; /* Thêm padding để làm cho nút trở nên dễ đọc */
-    border: none;
-    border-radius: 5px;
-    background-color: #ffb6c1;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.button-container input:hover {
-    background-color: #ff69b4;
 }
 
