@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/1.jpg"); /* Thay 'path/to/your/image.jpg' bằng đường dẫn đến tập tin ảnh của bạn */
+    background-size: cover; /* Đảm bảo ảnh nền được phủ hết màn hình */
+    background-position: center; /* Căn chỉnh ảnh nền vào giữa màn hình */
+}
+
+
+.form-container {
+    background-color: #f4e2f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #620835; /* Màu viền xanh dương đậm */
+}
+
+
+
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container input:focus {
+    border-color: #b90e92;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0073;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container input:hover {
+    background-color: #a21b75;
+}
+
+#register-form {
+    display: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid #9f0f57; /* Thêm viền xanh dương đậm */
+    color: #ff69b4; /* Màu chữ là màu hồng */
+}
+
+.button-container input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffb6c1; /* Màu button là màu hồng nhạt */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container input:hover {
+    background-color: #ff69b4; /* Màu button hover là màu hồng */
+}
+.form-container {
+    background-color: #f6ecf2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 35%; /* Đặt width là 200% để form container dài ra gấp đôi */
+}
+.button-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around; /* Canh các nút ở giữa */
+}
+
+.button-container input {
+    width: 25%; /* Chiếm 1/4 chiều rộng của container */
+    padding: 10px 0; /* Thêm padding để làm cho nút trở nên dễ đọc */
+    border: none;
+    border-radius: 5px;
+    background-color: #ffb6c1;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container input:hover {
+    background-color: #ff69b4;
+}
+
